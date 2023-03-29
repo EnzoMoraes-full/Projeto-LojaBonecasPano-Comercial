@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: rgb(255, 102, 0);
+}
+/*Estilizando o Cabecalho*/
+.paisupremo{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 160px;
+    background-color: blueviolet;
+}
+
+.header-pai{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 50%;
+    background-color: aqua;
+}
+
+.header-pai input{
+    height: 30px;
+    width: 50%;
+    border-radius: 4px;
+
+}
+
+.header-cadastro-carrinho-login{
+    display: flex;
+   align-items: center;
+   width: 20%;
+   justify-content: space-around;
+    
+    background-color: black;
+}
+
+/*Estilazando os botoes*/
+
+.header-cadastro-carrinho-login button{
+    width: 70px;
+    height: 50px;
+    border-radius: 3px;
+
+}
+
+#carrinho{
+    background-color: brown;
+}
+
+#login{
+    background-color: cadetblue;
+}
+
+#cadastro{
+    background-color: green;
+}
+
+/*Estizando os itens do cabecalho*/
+
+
+.header-itens ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    background-color: chartreuse;
+    font-size: 20px;
+    height: 90px;;
+}
+
+.header-itens{
+    height: 90px;
+}
+
+/*Estilzando o Main*/
+
+.main-pai{
+    padding-top: 3%;
+   padding-left: 3%;
+   padding-right: 3%;
+   background-color: rgb(202, 84, 196);
+}
+
+.main-conteudo{
+        padding-top: 3%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color: whitesmoke;
+}
+
+.main-main{
+    padding-top: 2%;
+        padding-left: 2%;
+        padding-right: 2%;
+
+}
+  
