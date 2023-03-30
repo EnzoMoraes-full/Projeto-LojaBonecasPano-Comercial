@@ -1,10 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     border: 0;
     text-decoration: none;
+    cursor: default;
+    font-family: 'Rubik', sans-serif;
 }
-
 /*Estilizando o Cabecalho*/
 .paisupremo{
     display: flex;
@@ -12,7 +15,7 @@
     justify-content: space-around;
     width: 100%;
     height: 160px;
-    background-color: blueviolet;
+    background-image: url(../img/fundoheader.jpg);
 }
 
 .header-pai{
@@ -20,14 +23,13 @@
     align-items: center;
     justify-content: space-around;
     width: 50%;
-    background-color: aqua;
 }
 
 .header-pai input{
-    height: 30px;
+    height: 45px;
     width: 50%;
     border-radius: 4px;
-
+    cursor: text;
 }
 
 .header-cadastro-carrinho-login{
@@ -35,7 +37,6 @@
    align-items: center;
    justify-content: space-around;
    flex-wrap: wrap;
-    background-color: black;
 }
 
 /*Estilazando os botoes*/
@@ -44,61 +45,91 @@
     width: 100%;
     padding: 15px 30px 15px 30px;
     border-radius: 8px;
+    font-size: 17px;
 }
 
 #carrinho{
-    background-color: brown;
-    width: 48%;
-    margin-top: 2%;
+    background-color: rgb(236, 137, 170);
+    width: 46%;
+    margin-top: 3%;
+    cursor: pointer;
+    color: whitesmoke;
+
 }
 
+
 #login{
-    background-color: cadetblue;
-    width: 48%;
-    
+    background-color: rgb(236, 137, 170);
+    width: 46%;
+    cursor: pointer;
+    color: whitesmoke;
 }
 
 #cadastro{
-    background-color: green;
-    width: 48%;
+    background-color: rgb(236, 137, 170);
+    width: 46%;
+    cursor: pointer;
+    color: whitesmoke;
 }
 
 /*Estizando os itens do cabecalho*/
 
 
 .header-itens ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 5px;
     list-style-type: none;
-    background-color: chartreuse;
-    font-size: 20px;
-    height: 90px;;
+    background-color: rgb(236, 137, 170);
+    cursor: pointer;
 }
 
 .header-itens ul a{
-    text-decoration: none;
-    font-size: 30px;
-    font-weight: 700;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18.4px;
+    padding: 28px 10px 28px 10px;
+    cursor: pointer;
+    
 }
+
+.header-itens ul a:hover{
+    background-color: rgb(243, 154, 185);
+    cursor: pointer;
+    
+}
+
+.header-itens a li{
+    cursor: pointer;
+    color: whitesmoke;
+   
+}
+
 .header-itens{
-    height: 90px;
+    background-color: rgb(236, 137, 170);
+    text-align: center;
+    padding-left: 6%;
+    padding-right: 6%;
+   
 }
+
+
+
 
 /*Estilzando o Main*/
 
 .main-pai{
-    padding-top: 5%;
+    padding-top: 4%;
    padding-left: 5%;
    padding-right: 5%;
-   background-color: rgb(202, 84, 196);
+   background-image: url(../img/fundo.jpg);
 }
 
 .main-conteudo{
         padding-top: 5%;
         padding-left: 4%;
         padding-right: 4%;
-        background-color: whitesmoke;
+        background-color: rgb(250, 244, 250);
+        border-radius: 20px 20px 0px 0px;
 }
 
 .main-conteudo-main{
@@ -115,13 +146,30 @@
 /* Conteudo depois da imagem do main*/
 
 .main-conteudo-after-img{
-    background-color: crimson;
+    position: relative;
     margin-top: 3%;
     margin-bottom: 3%;
 }
 
 .main-conteudo-after-img h1{
-font-size: 50px;
+    color: rgb(255, 160, 242);
+    font-size: 35px;
+
+}
+
+.main-conteudo-after-img .div1 img{
+    position: absolute;
+    left: 0;
+    top:35%;
+    margin-left: 13.5%;
+    transform: scaleX(-1);
+}
+
+.main-conteudo-after-img .div2 img{
+    position: absolute;
+    right: 0;
+    top:35%;
+    margin-right: 13.5%;
 }
 
 /*Grid de boencas o primeiro mais procurados*/
