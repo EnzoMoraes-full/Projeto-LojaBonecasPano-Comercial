@@ -189,8 +189,12 @@
   /*rodape*/
 
 .footer-pai{
-    padding-top: 3%;
-    padding-bottom: 1%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     text-align: center;
     background-color: palevioletred;
+  }
+
+  .footer-pai h1{
+    font-family: Arial, Helvetica, sans-serif;
   }
