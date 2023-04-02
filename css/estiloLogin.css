@@ -25,14 +25,52 @@
     width: 45%;
 }
 
-.header-pai input{
+#pesquisa{
     height: 45px;
     width: 50%;
-    border-radius: 6px;
+    border-radius: 4px;
     cursor: text;
-    padding-left: 20px;
 }
 
+h5{
+    margin-left: 1.2%;
+    margin-top: 1%;
+}
+
+h1{
+    margin-bottom: 1%;
+    
+    font-size: 35px;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.h2{
+    text-decoration: underline;
+   margin-right: 300px;
+}
+
+
+.main-conteudo-main{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    height: 45px;
+    width: 100%;
+    border-radius: 8px;
+    cursor: text;
+    margin-top: 1%;
+    padding-left: 1.2%;
+}
+
+.info{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 19px;
+    
+}
 .header-cadastro-carrinho-login{
     display: flex;
    align-items: center;
@@ -117,13 +155,10 @@
    
 }
 
-
-
-
 /*Estilzando o Main*/
 
 .main-pai{
-    padding-top: 4%;
+   padding-top: 4%;
    padding-left: 5%;
    padding-right: 5%;
    background-image: url(../img/fdm4.jpg);
@@ -131,15 +166,15 @@
 }
 
 .main-conteudo{
-        padding-top: 5%;
-        padding-left: 4%;
-        padding-right: 4%;
-        background-color: rgb(250, 244, 250);
-        border-radius: 20px 20px 0px 0px;
+    padding-top: 5%;
+    padding-left: 4%;
+    padding-right: 4%;
+    background-color: rgb(250, 244, 250);
+    border-radius: 14px;
 }
 
 .main-conteudo-main{
-    text-align: center;
+    padding-bottom: 5%;
 }
 
 /*Imagem do main*/
@@ -179,20 +214,6 @@
     margin-right: 13.5%;
 }
 
-/*Grid de boencas o primeiro mais procurados*/
-.main-grid-bonecas {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 25px 25px;
-  }
-  
-  .item img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
-  }
-  
-
   /*rodape*/
 
 .footer-pai{
@@ -207,70 +228,20 @@
     font-family: Arial, Helvetica, sans-serif;
   }
 
-.main-cards{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    align-items: center;
+
+  a{
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    border-radius: 8px;
+    font-size: 17px;
     text-align: center;
-    position: relative;
+  }
+
+.btn{
+    margin-top: 7%;
 }
 
-  .card {
-    text-align: center;
-    height: 430px;
-    margin: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 10px 0px 10px 0px;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
-  }
-  
-  .card img {
-    width: 230px;
-    height: auto;
-    margin-bottom: 10px;
-    border-radius: 3px;
-  }
+p{
+    font-style: italic;
+}
 
-  
-  .card h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  
-  .card p {
-    font-size: 16px;
-    color: #666;
-    margin-bottom: 10px;
-  }
-  
-  .card span {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .card .grid-botao button {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    width: 92%;
-    margin-left: 4.5%;
-    background-color: #0099ff;
-    color: #fff;
-    border-radius: 5px;
-    font-size: 14.3px;
-    font-weight: bold;
-    cursor: pointer;
-    padding: 10% 0% 10% 21%;
-  }
-
-  .grid-botao{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    text-align: center;
-    
-  }
-  .card:hover {
-    transition: transform .3s ease;
-    transform: scale(1.03);
-  }
