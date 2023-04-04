@@ -55,6 +55,33 @@
   transform: scale(1.07);
 }
 
+
+
+
+
+#cadastroBoneca{
+  text-align: center;
+  width: 50%;
+  background-color: #0099ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 14.3px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 10% 17% 10% 17%;
+    margin-left: 8%;
+    
+}
+
+#cadastroBoneca:hover{
+  transition: 0.2s;
+  transform: scale(1.07);
+}
+
+
+
+
+
 #carrinho{
     background-color: rgb(236, 137, 170);
     width: 28%;
@@ -193,20 +220,6 @@
   }
   
 
-  /*rodape*/
-
-.footer-pai{
-    
-    padding-top: 2%;
-    padding-bottom: 2%;
-    text-align: center;
-    background-color: palevioletred;
-  }
-
-  .footer-pai h1{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
 .main-cards{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -223,6 +236,7 @@
     border-radius: 5px;
     padding: 10px 0px 10px 0px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+    cursor: text;
   }
   
   .card img {
@@ -236,17 +250,20 @@
   .card h2 {
     font-size: 20px;
     margin-bottom: 10px;
+    cursor: text;
   }
   
   .card p {
     font-size: 16px;
     color: #666;
     margin-bottom: 10px;
+    cursor: text;
   }
   
   .card span {
     font-size: 24px;
     font-weight: bold;
+    cursor: text;
   }
   
   .card .grid-botao button {
@@ -274,3 +291,27 @@
     transition: transform .3s ease;
     transform: scale(1.03);
   }
+
+    /*rodape*/
+
+.footer-pai{
+    
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  background-color: palevioletred;
+}
+
+.footer-pai h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.footer-grid img{
+  width: 33.33%;
+  height: 80%;
+}
